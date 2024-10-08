@@ -1,0 +1,43 @@
+body{
+    background-color:#F5F5F5;
+    
+}
+.padding{
+    
+    border-radius:25px;
+    
+}
+.about-us{
+    display: flex;
+    gap:4%;
+    margin-top:4% ;
+    margin-left:10%;
+    margin-right: 10%;
+    border-radius:25px;
+    
+}
+.problem-statement{
+    display: flex;
+    gap: 4%;
+    margin-top:20% ;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+.problem-statement-img{
+    width: 30%;
+}
+.approve{
+    display: flex;
+    gap: 4%;
+    margin-top:20% ;
+    margin-left:10%;
+    margin-right: 10%;
+}
+.hover-link {
+    text-decoration: none;  
+    padding-left: 80%;     
+    
+    
+}
+
