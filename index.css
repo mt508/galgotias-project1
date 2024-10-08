@@ -235,3 +235,29 @@ h1, h2, h3, h4, h5, h6 {
     left: 100%;
   }
 }
+/*problem css*/
+.p-body-heading{
+    background-color:#dfcaca70; 
+    margin-left:10%;
+    margin-right: 10%;
+}
+.p-body-heading h1{
+    padding-bottom: 3%;
+    
+   
+}
+.p-body-content{
+   
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.p-body-content-cards{
+    display: flex;
+    gap: 4%;
+    padding-top: 5%;
+}
+.custom-btn{
+    background-color:#cdb4b4;
+    color: white;
+}
