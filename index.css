@@ -261,3 +261,16 @@ h1, h2, h3, h4, h5, h6 {
     background-color:#cdb4b4;
     color: white;
 }
+/*aiml*/
+.ai-ml-statement{
+    display: flex;
+    gap: 4%;
+    margin-top:5%;
+    background-color:#dfcaca70;
+    border-radius:25px;
+    
+}
+.aiml{
+    padding-top: 5%;
+    padding-left: 2%;
+}
