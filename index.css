@@ -1,28 +1,37 @@
 body{
     background-color:#F5F5F5;
+    font-family: Helvetica;
     
 }
-
 .padding{
     
     border-radius:25px;
     
 }
+/*1*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .about-us{
     display: flex;
     gap:4%;
-    margin-top:4% ;
-    margin-left:10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
     border-radius:25px;
     
 }
 .problem-statement{
     display: flex;
     gap: 4%;
-    margin-top:20% ;
-    margin-left:10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    
 }
 
 .problem-statement-img{
@@ -31,9 +40,11 @@ body{
 .approve{
     display: flex;
     gap: 4%;
-    margin-top:20% ;
-    margin-left:10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+
+    
 }
 .hover-link {
     text-decoration: none;  
@@ -41,6 +52,10 @@ body{
     
     
 }
+.new_footer_area {
+    background: #fbfbfd;
+}
+
 
 .new_footer_top {
     padding: 120px 0px 270px;
@@ -295,4 +310,7 @@ h1, h2, h3, h4, h5, h6 {
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-label {
+    font-weight: bold;
 }
